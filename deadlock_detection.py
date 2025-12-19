@@ -1,6 +1,6 @@
 # Banker's safety algorithm implementation
 
-def bankers_algorithm(processes, resources, allocation, maximum, available):
+def bankes_algorithm(processes, resources, allocation, maximum, available):
     need = []
     for i in range(processes):
         row = []
