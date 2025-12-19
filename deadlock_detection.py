@@ -1,5 +1,5 @@
 # Deadlock Detection using Banker's Algorithm
-
+print("Deadlock Detection Simulator")
 def bankers_algorithm(processes, resources, allocation, maximum, available):
     need = []
     for i in range(processes):
